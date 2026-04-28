@@ -1,8 +1,8 @@
-# 🛡️ Automated Log Analyzer & Threat Detection
+# Automated Log Analyzer & Threat Detection
 
 A minimal yet effective security tool for system administrators and analysts. This project collects and analyzes Linux system logs to detect suspicious activity such as brute-force attacks, failed logins, and privilege escalation patterns.
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 log-analyzer/
@@ -13,7 +13,7 @@ log-analyzer/
 └── README.md                  # Project documentation
 ```
 
-## 🚀 How to Use
+## How to Use
 
 ### 1. Collect Logs
 ```bash
@@ -31,7 +31,7 @@ python3 analyze_logs.py
 cat alerts.log
 ```
 
-## ✅ Features
+## Features
 
 - Collects common Linux logs (`syslog`, `auth.log`, `dmesg`)
 - Analyzes logs using regex patterns for:
@@ -41,11 +41,11 @@ cat alerts.log
   - Root shell access attempts
 - Outputs a clean, review-ready `alerts.log`
 
-## 📘 Author
+## Author
 
 **Abhay Aneesh**  
 [LinkedIn](https://www.linkedin.com/in/abhayaneesh) · [GitHub](https://github.com/a3x0666)
 
-## 📄 License
+## License
 
 MIT License – Free to use and modify.
